@@ -19,7 +19,6 @@ config:
           link: https://github.com/Autumn-27/ScopeSentry
   -
     type: text-image
-    description: 首页
     width: 100%
     image: /images/index-cn-2-s.png
 ---
