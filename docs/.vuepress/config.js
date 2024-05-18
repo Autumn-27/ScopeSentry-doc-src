@@ -14,8 +14,8 @@ export default defineUserConfig({
     '/en/': { lang: 'en-US', title: 'ScopeSentry' }, // English
   },
   head: [
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon.ico' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/favicon.ico' }],
   ],
   bundler: viteBundler(),
   theme,

@@ -6,7 +6,7 @@ import { enNotes, zhNotes } from './notes.js'
 import { enNavbar, zhNavbar } from './navbar.js'
 
 export const theme: Theme = themePlume({
-  logo: '/favicon.ico',
+  logo: '/images/favicon.ico',
   hostname: process.env.SITE_HOST || 'https://plume.pengzhanbo.cn',
   repo: 'https://github.com/pengzhanbo/vuepress-theme-plume',
   docsDir: 'docs',
@@ -24,7 +24,7 @@ export const theme: Theme = themePlume({
   ],
   navbarSocialInclude: ['github'],
 
-  footer: { copyright: 'Copyright © 2024-present Autumn' },
+  footer: { copyright: 'Copyright © 2024-present Scope Sentry' },
 
   locales: {
     '/': {
