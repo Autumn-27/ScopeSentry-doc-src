@@ -7,11 +7,11 @@ config:
     background: tint-plate
     hero:
       name: Scope Sentry
-      text: 资产测绘、子域名枚举、信息泄露检测、漏洞扫描、目录扫描、子域名接管、爬虫
+      text: Asset mapping, subdomain enumeration, information leakage detection, vulnerability scanning, directory scanning, subdomain takeover, crawling, page monitoring
       actions:
         -
           theme: brand
-          text: 快速开始 →
+          text: Quick Start →
           link: /
         -
           theme: alt
@@ -20,45 +20,41 @@ config:
   -
     type: text-image
     width: 817px
-    image: /images/index-cn.png
+    image: /images/index-en.png
     list:
       -
-        title: 首页
-        description: 资产、节点、任务、版本信息
+        title: Home page
+        description: Asset, node, task, version information
   -
     type: image-text
     width: 817px
-    image: /images/asset-cn.png
+    image: /images/asset-en.png
     list:
       -
-        title: 资产
-        description: 扫描数据
+        title: Asset
+        description: Scan data
   -
     type: text-image
     width: 817px
     image: /images/project-cn.png
     list:
       -
-        title: 项目
-        description: 内置SRC目标数据
+        title: Project
+        description: Built in SRC target data
   -
     type: image-text
     width: 817px
-    image: /images/task-cn.png
+    image: /images/task-en.png
     list:
       -
-        title: 任务
-        description: 创建扫描任务
+        title: Task
+        description: Create scanning task
   -
     type: text-image
     width: 817px
     image: /images/node-cn.png
     list:
       -
-        title: 节点
-        description: 节点管理
-title: README copy
-author:
-createTime: 2024/05/19 17:11:17
-permalink: /en/article/fecbvrx8/
+        title: Node
+        description: Node management
 ---

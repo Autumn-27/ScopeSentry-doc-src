@@ -7,7 +7,7 @@ config:
     background: tint-plate
     hero:
       name: Scope Sentry
-      text: 资产测绘、子域名枚举、信息泄露检测、漏洞扫描、目录扫描、子域名接管、爬虫
+      text: 资产测绘、子域名枚举、信息泄露检测、漏洞扫描、目录扫描、子域名接管、爬虫、页面监控
       actions:
         -
           theme: brand
@@ -57,8 +57,4 @@ config:
       -
         title: 节点
         description: 节点管理
-title: README copy
-author: null
-createTime: 2024/05/19 17:11:17
-permalink: /en/article/fecbvrx8/
 ---
