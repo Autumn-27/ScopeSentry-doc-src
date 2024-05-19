@@ -5,8 +5,8 @@ export const zhNavbar = [
   {
     text: '指南',
     icon: 'icon-park-outline:guide-board',
-    // link: '/guide/intro/',
-    link: '/notes/theme/guide/介绍.md',
+    link: '/guide/intro/',
+    // link: '/notes/guide/介绍.md',
     activeMatch: '^/guide/',
   }
 ] as NavItem[]

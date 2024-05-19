@@ -22,7 +22,11 @@ export const theme: Theme = themePlume({
     '/': {
       notes: zhNotes,
       navbar: zhNavbar,
-    }
+    },
+    '/en/': {
+      notes: enNotes,
+      navbar: enNavbar,
+    },
   },
   plugins: {
     frontmatter: { exclude: ['**/*.snippet.*'] },
