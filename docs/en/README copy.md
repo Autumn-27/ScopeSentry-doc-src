@@ -58,7 +58,7 @@ config:
         title: 节点
         description: 节点管理
 title: README copy
-author: null
+author:
 createTime: 2024/05/19 17:11:17
 permalink: /en/article/fecbvrx8/
 ---

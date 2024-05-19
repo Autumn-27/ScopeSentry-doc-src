@@ -11,14 +11,6 @@ export const theme: Theme = themePlume({
   repo: 'https://github.com/pengzhanbo/vuepress-theme-plume',
   docsDir: 'docs',
 
-  // avatar: {
-  //   url: '/favicon.ico',
-  //   name: 'ScopeSentry',
-  //   description: 'The Theme for Vuepress 2.0',
-  //   location: 'GuangZhou, China',
-  //   organization: 'pengzhanbo',
-  // },
-
   social: [
     { icon: 'github', link: 'https://github.com/pengzhanbo/vuepress-theme-plume' }
   ],
@@ -30,11 +22,7 @@ export const theme: Theme = themePlume({
     '/': {
       notes: zhNotes,
       navbar: zhNavbar,
-    },
-    '/en/': {
-      notes: enNotes,
-      navbar: enNavbar,
-    },
+    }
   },
   plugins: {
     frontmatter: { exclude: ['**/*.snippet.*'] },

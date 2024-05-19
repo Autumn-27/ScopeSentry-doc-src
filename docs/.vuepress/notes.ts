@@ -5,7 +5,7 @@ export const zhNotes = definePlumeNotesConfig({
   link: '/',
   notes: [
     {
-      dir: 'theme/guide',
+      dir: 'guide',
       link: '/guide/',
       sidebar: [
         {
