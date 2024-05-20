@@ -7,12 +7,12 @@ import { enNavbar, zhNavbar } from './navbar.js'
 
 export const theme: Theme = themePlume({
   logo: '/images/favicon.ico',
-  hostname: process.env.SITE_HOST || 'https://plume.pengzhanbo.cn',
-  repo: 'https://github.com/pengzhanbo/vuepress-theme-plume',
+  hostname: process.env.SITE_HOST || 'https://www.scope-sentry.top',
+  repo: 'https://github.com/Autumn-27/ScopeSentry',
   docsDir: 'docs',
 
   social: [
-    { icon: 'github', link: 'https://github.com/pengzhanbo/vuepress-theme-plume' }
+    { icon: 'github', link: 'https://github.com/Autumn-27/ScopeSentry' }
   ],
   navbarSocialInclude: ['github'],
 
@@ -61,7 +61,7 @@ export const theme: Theme = themePlume({
 
     comment: {
       provider: 'Giscus',
-      comment: true,
+      comment: false,
       repo: 'pengzhanbo/vuepress-theme-plume',
       repoId: 'R_kgDOG_ebNA',
       category: 'docs-comment',
