@@ -52,6 +52,14 @@ config:
   -
     type: text-image
     width: 817px
+    image: /images/task-pg-cn.png
+    list:
+      -
+        title: 任务进度
+        description: 任务进度
+  -
+    type: image-text
+    width: 817px
     image: /images/node-cn.png
     list:
       -

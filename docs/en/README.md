@@ -52,6 +52,14 @@ config:
   -
     type: text-image
     width: 817px
+    image: /images/task-pg-en.png
+    list:
+      -
+        title: Task Progress
+        description: Task Progress
+  -
+    type: image-text
+    width: 817px
     image: /images/node-cn.png
     list:
       -
