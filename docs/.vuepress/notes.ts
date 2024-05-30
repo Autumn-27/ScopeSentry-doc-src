@@ -19,7 +19,7 @@ export const zhNotes = definePlumeNotesConfig({
           icon: 'lucide:box',
           collapsed: false,
           dir: '使用教程',
-          items: ['系统配置'],
+          items: ['系统配置', '字典管理', 'POC&指纹&敏感信息', '创建任务'],
         }
       ],
     },
