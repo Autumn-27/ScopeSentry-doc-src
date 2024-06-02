@@ -20,6 +20,13 @@ export const zhNotes = definePlumeNotesConfig({
           collapsed: false,
           dir: '使用教程',
           items: ['系统配置', '字典管理', 'POC&指纹&敏感信息', '创建任务', '项目管理'],
+        },
+        {
+          text: '资产信息',
+          icon: 'carbon:view',
+          collapsed: false,
+          dir: '资产信息',
+          items: ['资产测绘', '子域名', '子域名接管', 'URL', '爬虫', '敏感信息', '目录扫描', '漏洞', '页面监控'],
         }
       ],
     },
