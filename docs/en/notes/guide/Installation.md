@@ -1,9 +1,8 @@
 ---
-title: 安装
+title: Installation
 author:
-icon: grommet-icons:install
-createTime: 2024/05/19 18:01:05
-permalink: /guide/install/
+createTime: 2024/06/03 22:26:19
+permalink: /en/guide/install/
 ---
 
 ## 数据库

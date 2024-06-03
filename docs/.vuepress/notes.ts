@@ -35,6 +35,33 @@ export const zhNotes = definePlumeNotesConfig({
 
 export const enNotes = definePlumeNotesConfig({
   dir: 'en/notes',
-  link: '/',
-  notes: [],
+  link: '/en',
+  notes: [
+    {
+      dir: 'guide',
+      link: '/guide/',
+      sidebar: [
+        {
+          text: 'Quick Start',
+          collapsed: false,
+          icon: 'carbon:idea',
+          items: ['Introduction', 'Installation'],
+        },
+        {
+          text: 'Tutorial',
+          icon: 'lucide:box',
+          collapsed: false,
+          dir: 'tutorial',
+          items: ['System Configuration', 'Dictionary Management', 'POC & Fingerprints & Sensitive Information', 'Create Task', 'Project Management'],
+        },
+        {
+          text: 'Asset Information',
+          icon: 'carbon:view',
+          collapsed: false,
+          dir: 'asset-information',
+          items: ['Asset Mapping', 'Subdomains', 'Subdomain Takeover', 'URL', 'Crawler', 'Sensitive Information', 'Directory Scanning', 'Vulnerabilities', 'Page Monitoring'],
+        }
+      ],
+    },
+  ],
 })
