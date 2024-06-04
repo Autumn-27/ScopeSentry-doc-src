@@ -45,14 +45,14 @@ export const enNotes = definePlumeNotesConfig({
           text: 'Quick Start',
           collapsed: false,
           icon: 'carbon:idea',
-          items: ['Introduction', 'Installation'],
+          items: ['Introduction', 'Install'],
         },
         {
           text: 'Tutorial',
           icon: 'lucide:box',
           collapsed: false,
           dir: 'tutorial',
-          items: ['System Configuration', 'Dictionary Management', 'POC & Fingerprints & Sensitive Information', 'Create Task', 'Project Management'],
+          items: ['System Configuration', 'Dictionary Management', 'POC&Fingerprints&Sensitive Information', 'Create Task', 'Project Management'],
         },
         {
           text: 'Asset Information',

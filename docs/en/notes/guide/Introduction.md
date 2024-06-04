@@ -1,6 +1,7 @@
 ---
 title: Introduction
-author:
+author: Autumn
+icon: mdi:tooltip-text-outline
 createTime: 2024/06/03 22:23:14
 permalink: /en/guide/intro/
 ---
@@ -49,35 +50,35 @@ Scope Sentry is a tool with functions such as asset mapping, subdomain enumerati
 ![alt text](/images/login.png)
 
 ### Homepage Dashboard
-![alt text](/images/index-cn.png)
+![alt text](/images/index-en.png)
 
 ## Asset Data
 ### Assets
-![alt text](/images/asset-cn.png)
+![alt text](/images/asset-en.png)
 
 ### Subdomains
-![alt text](/images/subdomain-cn.png)
+![alt text](/images/subdomain-en.png)
 
 ### Subdomain Takeover
-![alt text](/images/subt-cn.png)
+![alt text](/images/subt-en.png)
 
 ### URL
-![alt text](/images/url-cn.png)
+![alt text](/images/url-en.png)
 
 ### Crawler
-![alt text](/images/craw-cn.png)
+![alt text](/images/craw-en.png)
 
 ### Sensitive Information
-![alt text](/images/sns-cn.png)
+![alt text](/images/sns-en.png)
 
 ### Directory Scanning
-![alt text](/images/dir-cn.png)
+![alt text](/images/dir-en.png)
 
 ### Vulnerabilities
-![alt text](/images/vul-cn.png)
+![alt text](/images/vul-en.png)
 
 ### Page Monitoring
-![alt text](/images/page-cn.png)
+![alt text](/images/page-en.png)
 
 ## Projects
 
@@ -85,11 +86,11 @@ Scope Sentry is a tool with functions such as asset mapping, subdomain enumerati
 
 ## Tasks
 
-![](/images/task-cn.png)
+![](/images/task-en.png)
 
 ## Task Progress
 
-![](/images/task-pg-cn.png)
+![](/images/task-pg-en.png)
 
 ## Nodes
 

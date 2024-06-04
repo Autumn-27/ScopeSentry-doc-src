@@ -12,7 +12,7 @@ config:
         -
           theme: brand
           text: Quick Start →
-          link: /
+          link: /en/guide/intro/
         -
           theme: alt
           text: Github
