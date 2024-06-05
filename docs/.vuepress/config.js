@@ -18,6 +18,12 @@ export default defineUserConfig({
   ],
   pagePatterns: ['**/*.md', '!**/*.snippet.md', '!.vuepress', '!node_modules'],
   bundler: viteBundler(),
-  theme,
+  theme: plumeTheme({
+    plugins: {
+      baiduTongji: {
+        key: '3467b25b63dd47c43686d9595169f55f'
+      }
+    }
+  }),
   
 })
