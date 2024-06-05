@@ -9,7 +9,8 @@ permalink: /en/guide/install/
 ## Database
 :::tip
 Please make sure that docker and docker-compose are installed
-redis and MongoDb can be installed without docker, just set the account and password by yourself.
+
+Redis and MongoDb can be installed without docker, just set the account and password by yourself.
 :::
 ### redis
 ```
@@ -31,6 +32,22 @@ docker-compose -f mongodb-docker-compose.yml up -d
 :::tip
 Due to the large amount of built-in data, it takes a while for the database to be initialized. If you need to update the service for source code installation, you need to install git and curl tools.
 :::
+You can then use `docker logs -f container id` to view the container logs to ensure that the operation is successful.
+
+After success, the following figure is shown:
+![alt text](/images/docker-server.png)
+
+Visit http://IP:8082
+
+The default account password is ScopeSentry/ScopeSentry
+
+:::tip
+If you forget your password, enter the Mongodb database and modify the password in the user table to b0ce71fcbed8a6ca579d52800145119cc7d999dc8651b62dfc1ced9a984e6e64
+Reset to ScopeSentry
+:::
+
+
+
 
 ### Docker installation
 ```
@@ -89,6 +106,10 @@ cd ScopeSentry-Scan/build
 # Edit the connection information of Mongdb and Redis in the scan-docker-compose.yml file. NodeName is the node name. Please keep each node name unique.
 docker-compose -f scan-docker-compose.yml up -d
 ```
+You can then use `docker logs -f container id` to view the container logs to ensure that the operation is successful.
+
+After success, the following figure is shown:
+![alt text](/images/image-1.png)
 
 ### Compile and install
 ```

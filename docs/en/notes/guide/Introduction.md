@@ -15,6 +15,7 @@ permalink: /en/guide/intro/
 
 - Official Website: [https://www.scope-sentry.top](https://www.scope-sentry.top)
 - Github: [https://github.com/Autumn-27/ScopeSentry](https://github.com/Autumn-27/ScopeSentry)
+- Scanner source code: [https://github.com/Autumn-27/ScopeSentry-Scan](https://github.com/Autumn-27/ScopeSentry-Scan)
 
 ## Introduction
 Scope Sentry is a tool with functions such as asset mapping, subdomain enumeration, information leakage detection, vulnerability scanning, directory scanning, subdomain takeover, crawler, and page monitoring. By building multiple nodes, users can freely choose nodes to run scanning tasks. When new vulnerabilities emerge, it can quickly check whether the concerned assets have related components.
@@ -95,3 +96,17 @@ Scope Sentry is a tool with functions such as asset mapping, subdomain enumerati
 ## Nodes
 
 ![](/images/node-cn.png)
+
+## Communication
+
+Discord:
+
+[https://discord.gg/agsYdAyN](https://discord.gg/agsYdAyN)
+
+QQ:
+
+![](/images/qq.png)
+
+WX:
+
+![](/images/wx.png)
