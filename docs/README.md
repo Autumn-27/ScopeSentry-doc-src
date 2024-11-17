@@ -2,67 +2,66 @@
 home: true
 config:
   -
-    type: hero
-    full: true
-    background: tint-plate
-    hero:
-      name: Scope Sentry
-      text: 资产测绘、子域名枚举、信息泄露检测、漏洞扫描、目录扫描、子域名接管、爬虫、页面监控
-      actions:
-        -
-          theme: brand
-          text: 快速开始 →
-          link: /guide/intro/
-        -
-          theme: alt
-          text: Github
-          link: https://github.com/Autumn-27/ScopeSentry
-  -
-    type: text-image
-    width: 817px
-    image: /images/index-cn.png
-    list:
+    type: features
+    features:
       -
-        title: 首页
-        description: 资产、节点、任务、版本信息
-  -
-    type: image-text
-    width: 817px
-    image: /images/asset-cn.png
-    list:
+        title: 插件系统
+        icon: 🔌
+        details: 支持插件系统，加入任意工具
       -
-        title: 资产
-        description: 扫描数据
-  -
-    type: text-image
-    width: 817px
-    image: /images/project-cn.png
-    list:
+        title: 插件市场
+        icon: 🛠️
+        details: 官方插件市场，支持插件上传与分享
       -
-        title: 项目
-        description: 内置SRC目标数据
-  -
-    type: image-text
-    width: 817px
-    image: /images/task-cn.png
-    list:
+        title: 分布式扫描
+        icon: 🌐
+        details: 支持多节点部署，分布式扫描，提升扫描效率
       -
-        title: 任务
-        description: 创建扫描任务
-  -
-    type: text-image
-    width: 817px
-    image: /images/task-pg-cn.png
-    list:
+        title: 子域名扫描
+        icon: 📡
+        details: 支持子域名枚举
       -
-        title: 任务进度
-        description: 任务进度
-  -
-    type: image-text
-    width: 817px
-    image: /images/node-cn.png
-    list:
+        title: 接管检测
+        icon: 🎯
+        details: 支持子域名接管检测
       -
-        title: 节点
-        description: 节点管理
+        title: 端口扫描
+        icon: 🖥️
+        details: 支持端口扫描
+      -
+        title: 资产测绘
+        icon: 🔍
+        details: 拥有属于自己的资产测绘平台
+      -
+        title: 资产搜索
+        icon: 📊
+        details: 支持高级语法搜索，快速定位资产信息
+      -
+        title: 指纹识别
+        icon: 👆
+        details: 内置海量指纹库，支持自定义WEB指纹规则
+      -
+        title: 漏洞扫描
+        icon: 🛡️
+        details: 内置丰富POC规则库，支持自定义POC导入，快速发现安全漏洞
+      -
+        title: URL扫描
+        icon: 🔗
+        details: 从多种来源收集URL扫描信息，扩大资产信息面
+      -
+        title: 目录扫描
+        icon: 📂
+        details: 智能目录扫描与爬虫功能，全面收集Web资产信息
+      -
+        title: 信息泄露
+        icon: 🚨
+        details: 自动发现敏感信息泄露，支持自定义敏感信息规则
+      -
+        title: 页面监控
+        icon: 👀
+        details: 支持网页变化监控，及时发现资产变动，URL智能提取
+      -
+        title: 爬虫系统
+        icon: 🕷️
+        details: 智能爬虫系统，自动发现与收集网站资产信息
 ---
