@@ -8,6 +8,16 @@ export const zhNavbar = [
     link: '/guide/intro/',
     // link: '/notes/guide/介绍.md',
     activeMatch: '^/guide/',
+  },
+  {
+    text: 'Plugin',
+    icon: 'ri:puzzle-fill',
+    link: 'https://plugin.scope-sentry.top'
+  },
+  {
+    text: 'SecureFlow',
+    icon: 'ri:shield-keyhole-fill',
+    link: 'https://plugin.scope-sentry.top'
   }
 ] as NavItem[]
 
@@ -17,5 +27,15 @@ export const enNavbar = [
     icon: 'icon-park-outline:guide-board',
     link: '/en/guide/intro/',
     activeMatch: '^/en/guide/',
+  },
+  {
+    text: 'Plugin',
+    icon: 'ri:puzzle-fill',
+    link: 'https://plugin.scope-sentry.top'
+  },
+  {
+    text: 'SecureFlow',
+    icon: 'ri:shield-keyhole-fill',
+    link: 'https://plugin.scope-sentry.top'
   }
 ] as NavItem[]

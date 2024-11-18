@@ -104,16 +104,82 @@ The parameters of the Execute method are input interface{} and op options.Plugin
 
 PluginOption is defined in
 ```
-https://github.com/Autumn-27/ScopeSentry-Plugin-Template/blob/a76ac430153faff262e3d9a7cc25d0d23bee5f9d/internal/options/plugin.go#L10
+https://github.com/Autumn-27/ScopeSentry-Plugin-Template/blob/main/internal/options/plugin.go
 ```
+The input parameter is the input
+```
+type PluginOption struct {
+Name string
+Module string
+Parameter string
+PluginId string
+ResultFunc func(interface{})
+Custom interface{}
+TaskId string
+TaskName string
+Log func(msg string, tp ...string)
+Ctx context.Context
+}
+```
+> Name is the plugin name
 
-input is input
+> Module is the module to which the plugin belongs
 
-op.ResultFunc is output
+> Parameter is the plugin parameter
 
-Special modules include AssetHandle, PortScanPreparation, and PortFingerprint. Input is a reference. Modifying input directly is to modify the result.
+When creating a plugin, you can use {} to reference dictionaries and ports when filling in parameter information
 
-Other modules call op.ResultFunc callback function to return the result after obtaining the result
+{dict.subdomain.default} This parameter will be replaced with the file id of the default name of the subdomain category in the dictionary
+
+and
+
+{port.top1000} This parameter will be replaced with the top1000 of the port
+
+Parameter parsing reference (call the ParseArgs method of the tool class):
+```
+args, err := utils.Tools.ParseArgs(parameter, "cdncheck", "screenshot")
+if err != nil {
+} else {
+for key, value := range args {
+if value != "" {
+switch key {
+case "cdncheck":
+cdncheck = value
+case "screenshot":
+if value == "true" {
+screenshot = true
+}
+default:
+continue
+}
+}
+}
+}
+```
+> PluginId plugin id
+
+> ResultFunc plugin result callback function
+
+Special modules include AssetHandle, PortScanPreparation, and PortFingerprint. Input is a reference. Modifying the input directly is to modify the result.
+
+Other modules call op.ResultFunc callback function to return the result after getting the result
+
+> Custom custom parameters, used for future expansion
+
+> TaskId task id
+Task id can be used for global deduplication
+
+> TaskName task name
+
+> Log log printing function
+
+op.Log("test") // info type log
+
+op.Log("test", "e") // error type log
+
+op.Log("test", "d") // debug type log
+
+op.Log("test", "w") // warning type log
 
 ## Built-in methods that plugins can call
 Currently, due to the limitations of the plugin system, third-party libraries cannot be called, so some methods are built into the system for calling, as follows:
