@@ -17,7 +17,7 @@ export const zhNavbar = [
   {
     text: 'SecureFlow',
     icon: 'ri:shield-keyhole-fill',
-    link: 'https://plugin.scope-sentry.top'
+    link: 'https://secureflow.scope-sentry.top/'
   }
 ] as NavItem[]
 
@@ -36,6 +36,6 @@ export const enNavbar = [
   {
     text: 'SecureFlow',
     icon: 'ri:shield-keyhole-fill',
-    link: 'https://plugin.scope-sentry.top'
+    link: 'https://secureflow.scope-sentry.top/'
   }
 ] as NavItem[]
