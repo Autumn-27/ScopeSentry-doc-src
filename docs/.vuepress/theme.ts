@@ -17,7 +17,7 @@ export const theme: Theme = themePlume({
   navbarSocialInclude: ['github'],
 
   footer: { copyright: 'Copyright © 2024-present Scope Sentry' },
-
+  appearance: 'dark',
   locales: {
     '/': {
       notes: zhNotes,

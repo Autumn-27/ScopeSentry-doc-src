@@ -35,24 +35,24 @@ export default defineUserConfig({
         src: 'https://www.googletagmanager.com/gtag/js?id=G-F4GTN6QXBC'
       }
     ],
-    [
-      'script',
-      {},
-      `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-F4GTN6QXBC');
-      `
-    ],
-    [
-      'script',
-      {
-        async: true,
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9132891531531113',
-        crossorigin: 'anonymous'
-      }
-    ]
+    // [
+    //   'script',
+    //   {},
+    //   `
+    //     window.dataLayer = window.dataLayer || [];
+    //     function gtag(){dataLayer.push(arguments);}
+    //     gtag('js', new Date());
+    //     gtag('config', 'G-F4GTN6QXBC');
+    //   `
+    // ],
+    // [
+    //   'script',
+    //   {
+    //     async: true,
+    //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9132891531531113',
+    //     crossorigin: 'anonymous'
+    //   }
+    // ]
   ],
   pagePatterns: ['**/*.md', '!**/*.snippet.md', '!.vuepress', '!node_modules'],
   bundler: viteBundler(),

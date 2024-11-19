@@ -5,6 +5,12 @@ icon: fluent:text-align-distributed-20-regular
 createTime: 2024/11/17 22:29:16
 permalink: /en/guide/Distributed/
 ---
+
+:::tip
+If you forget your password, enter the Mongodb database and modify the password in the user table to b0ce71fcbed8a6ca579d52800145119cc7d999dc8651b62dfc1ced9a984e6e64
+:::
+
+
 The system is divided into four services:
 - web/server side - used for asset management, task management, etc.
 - scan side - used for scanning, can be deployed on multiple machines
@@ -83,19 +89,19 @@ Create config.yaml in the project root directory
 The content is as follows, modify the connection information of Mongodb and Redis.
 ```
 logs:
-total_logs: 1000
+  total_logs: 1000
 mongodb:
-database_name: ScopeSentry
-ip: 127.0.0.1
-password: QckSdkg5CKvtxfec
-port: 27017
-username: root
+  mongodb_database: ScopeSentry
+  ip: 127.0.0.1
+  password: ""
+  port: 27017
+  username: admin
 redis:
-ip: 127.0.0.1
-password: ScopeSentry
-port: '6379'
+  ip: 127.0.0.1
+  password: ""
+  port: '6379'
 system:
-timezone: Asia/Shanghai
+  timezone: Asia/Shanghai
 ```
 Finally run the program
 
@@ -172,19 +178,19 @@ Create config.yaml in the project root directory
 The content is as follows, modify the connection information of Mongodb and Redis.
 ```
 logs:
-total_logs: 1000
+  total_logs: 1000
 mongodb:
-database_name: ScopeSentry
-ip: 127.0.0.1
-password: QckSdkg5CKvtxfec
-port: 27017
-username: root
+  mongodb_database: ScopeSentry
+  ip: 127.0.0.1
+  password: ""
+  port: 27017
+  username: admin
 redis:
-ip: 127.0.0.1
-password: ScopeSentry
-port: '6379'
+  ip: 127.0.0.1
+  password: ""
+  port: '6379'
 system:
-timezone: Asia/Shanghai
+  timezone: Asia/Shanghai
 ```
 Finally run the program
 
