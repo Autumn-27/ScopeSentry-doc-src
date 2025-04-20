@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import type { PlumeHomeConfigBase } from 'vuepress-theme-plume'
-import { VPHomeBox } from 'vuepress-theme-plume/client'
+import { HomeBox } from 'vuepress-theme-plume/client'
 
-const props = defineProps<PlumeHomeConfigBase & {
+const props = defineProps<{
+  type?: string
+  backgroundImage?: string
+  backgroundAttachment?: string
+  full?: boolean
   title: string
   description: string
   actions: Array<{
@@ -14,7 +18,7 @@ const props = defineProps<PlumeHomeConfigBase & {
 </script>
 
 <template>
-  <VPHomeBox
+  <HomeBox
     :type="type"
     :background-image="backgroundImage"
     :background-attachment="backgroundAttachment"

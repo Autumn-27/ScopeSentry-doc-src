@@ -55,7 +55,11 @@ export default defineUserConfig({
     // ]
   ],
   pagePatterns: ['**/*.md', '!**/*.snippet.md', '!.vuepress', '!node_modules'],
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {
+      // 必须保留的配置
+      assetsInclude: ["**/*.html", "**/*?html-proxy*"],
+    },
+  }),
   theme,
-  
 })
