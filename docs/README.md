@@ -29,6 +29,18 @@ config:
         icon: 🖥️
         details: 支持端口扫描
       -
+        title: ICP收集
+        icon: 🧾
+        details: 采集网站ICP备案信息，根据ICP查询关联域名
+      -
+        title: APP收集
+        icon: 📱
+        details: 支持移动应用资产信息收集，辅助移动端风险识别
+      -
+        title: 小程序收集
+        icon: 🧩
+        details: 发现与识别微信平台的小程序资产信息
+      -
         title: 资产测绘
         icon: 🔍
         details: 拥有属于自己的资产测绘平台

@@ -29,6 +29,18 @@ config:
         icon: 🖥️
         details: Support port scanning
       -
+        title: ICP Collection
+        icon: 🧾
+        details: Collects website ICP filing information and identifies associated domains based on ICP records
+      -
+        title: APP Collection
+        icon: 📱
+        details: Supports mobile application asset information collection to assist in identifying mobile-side risks
+      -
+        title: Mini Program Collection
+        icon: 🧩
+        details: Discovers and identifies mini program assets on the WeChat platform
+      -
         title: Asset Mapping
         icon: 🔍
         details: Have your own asset mapping platform
