@@ -13,19 +13,55 @@ permalink: /en/guide/task/
 During the scanning task, if the node is offline (docker will automatically restart), the program will automatically create a task to allow the node to continue running the unfinished task.
 :::
 
-### Task name
-Customize the task name
+### Target source
 
-### Target
-One target per line, and the target with a wildcard is best placed at the bottom (to prevent inconsistent task allocation).
+**1. Normal**
+
+One target per line, targets with wildcards are best placed at the bottom (to prevent inconsistent task allocation).
+
+Supports the following formats
+
+192.168.1.1-192.168.1.253
+
+192.168.1.1/24
+
+example.com
+
+CIDR:192.168.0.0/18 (This method will put the network segment in one node for scanning, and the fast scanning will survive.)
+
+CMP:xxx Company (Company Name)
+
+ICP: Beijing ICP Certificate xxxx No. (ICP Registration No.)
+
+APP:xxx (APP Name)
+
+APP-ID:com.xx.xx (app package name)
+
+**2. From Project**
+
+After creating a project, if you need to run the project, create a task from the task here, select From Project, which will put the target in the project into the task.
+
+**3. From Asset**
+
+The search statement can search for data in the asset, and can also filter according to the project. You can search on the asset page, view the search data, and create a task after confirming that it is the data that needs to be run.
+
+**4. From the root domain**
+
+Supports search statements and filter items, and scans the searched root domain.
+
+**5. From the subdomain**
+
+Supports search statements and filter items, and scans the searched subdomain.
 
 ### Node selection
 
-You can select the node to run the task. When you select a node by clicking `All`, a new node will automatically join this task when it is connected. Otherwise, the scanning task will only be performed in the selected node.
+You can select the node to run the task. If you select Automatically join, the task will be automatically added when a new node is connected. Otherwise, the scan task will only be performed in the selected node.
 
-### Scheduled task
+### Scheduled tasks
 
 After selecting a scheduled task, the system will run the task periodically according to the scheduled time.
+
+Currently supports daily, N days, N hours, weekly, monthly
 
 ### Deduplication
 
