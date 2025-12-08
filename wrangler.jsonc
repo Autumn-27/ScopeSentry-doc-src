@@ -1,5 +1,5 @@
 {
-  "name": "scope-sentry-doc",
+  "name": "scopesentry-doc-src",
   "compatibility_date": "2025-01-30",
   "assets": {
     "directory": "./docs/.vuepress/dist"
